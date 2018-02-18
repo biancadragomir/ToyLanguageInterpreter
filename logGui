@@ -1,0 +1,5932 @@
+PrgState ID 1
+Exe stack: 
+(((((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) ))  (ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) )  (await(cnt) Print(2000)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) ))  (ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) ) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) ))  (ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) ) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )) 
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )) 
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) ) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) ) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v1,2); new(v2,3);) 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v1,2); new(v2,3);) 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v1,2);
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v1,2);
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v3,4);
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v3,4);
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) )
+ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+WriteHeap(v1, readHeap(v1)*10)
+(Print(readHeap(v1)) await(cnt)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) )
+ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+WriteHeap(v1, readHeap(v1)*10)
+(Print(readHeap(v1)) await(cnt)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(Print(readHeap(v1)) await(cnt)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(Print(readHeap(v1)) await(cnt)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Print(readHeap(v1))
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(await(cnt) WriteHeap(v2, readHeap(v2)*10)) 
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Print(readHeap(v1))
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(await(cnt) WriteHeap(v2, readHeap(v2)*10)) 
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+await(cnt)
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+await(cnt)
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(await(cnt) WriteHeap(v3, readHeap(v3)*10)) 
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+await(cnt)
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+await(cnt)
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(await(cnt) WriteHeap(v3, readHeap(v3)*10)) 
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+await(cnt)
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+await(cnt)
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+await(cnt)
+WriteHeap(v3, readHeap(v3)*10)
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+await(cnt)
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+await(cnt)
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+await(cnt)
+WriteHeap(v3, readHeap(v3)*10)
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+await(cnt)
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+await(cnt)
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+await(cnt)
+WriteHeap(v3, readHeap(v3)*10)
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+await(cnt)
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+await(cnt)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+await(cnt)
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+await(cnt)
+WriteHeap(v3, readHeap(v3)*10)
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+WriteHeap(v3, readHeap(v3)*10)
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(2000)
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+WriteHeap(v2, readHeap(v2)*10)
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+WriteHeap(v3, readHeap(v3)*10)
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(readHeap(v2))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+WriteHeap(v3, readHeap(v3)*10)
+Print(readHeap(v3))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+WriteHeap(v3, readHeap(v3)*10)
+Print(readHeap(v3))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Print(readHeap(v3))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Print(readHeap(v3))
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+20
+2000
+30
+400
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((new(v1,20); (new(v2,30); NewLock(x)) )  (ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v1,20); (new(v2,30); NewLock(x)) ) 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v1,20); (new(v2,30); NewLock(x)) ) 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v1,20);
+(new(v2,30); NewLock(x)) 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v1,20);
+(new(v2,30); NewLock(x)) 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v2,30); NewLock(x)) 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v2,30); NewLock(x)) 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v2,30);
+NewLock(x)
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v2,30);
+NewLock(x)
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+NewLock(x)
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+NewLock(x)
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) ) (NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) )
+(NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) )
+(NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+(ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(NewLock(q) (ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+(ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) ) (Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+NewLock(q)
+(ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) )
+(Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+NewLock(q)
+(ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+ForkStmt((Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) )
+(Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+(Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) ) ((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+(Lock(x) (WriteHeap(v1, readHeap(v1)+1) Unlock(x)) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(Lock(v) (WriteHeap(v1, readHeap(v1)-1) Unlock(x)) ) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) )
+((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Lock(x)
+(WriteHeap(v1, readHeap(v1)+1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Lock(v)
+(WriteHeap(v1, readHeap(v1)-1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) )
+((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Lock(x)
+(WriteHeap(v1, readHeap(v1)+1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Lock(v)
+(WriteHeap(v1, readHeap(v1)-1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+(WriteHeap(v1, readHeap(v1)+1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(WriteHeap(v1, readHeap(v1)-1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((z = 200; (z = 300; z = 400;) )  ((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+(WriteHeap(v1, readHeap(v1)+1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(WriteHeap(v1, readHeap(v1)-1) Unlock(x)) 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) ) (m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(z = 200; (z = 300; z = 400;) ) 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+WriteHeap(v1, readHeap(v1)+1)
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+WriteHeap(v1, readHeap(v1)-1)
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) )
+(m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(z = 200; (z = 300; z = 400;) ) 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+WriteHeap(v1, readHeap(v1)+1)
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+WriteHeap(v1, readHeap(v1)-1)
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+ForkStmt((Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) )
+(m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+z = 200;
+(z = 300; z = 400;) 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+(Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+z = 200;
+(z = 300; z = 400;) 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Unlock(x)
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(m = 100; (Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+(Lock(q) (WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(z = 300; z = 400;) 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->200
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+m = 100;
+(Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(z = 300; z = 400;) 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->200
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+m = 100;
+(Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+z = 300;
+z = 400;
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->200
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+(WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+z = 300;
+z = 400;
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->200
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(Lock(q) (WriteHeap(v2, readHeap(v2)+1) Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+(WriteHeap(v2, 5+readHeap(v2)) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+z = 400;
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->300
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+WriteHeap(v2, 5+readHeap(v2))
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+z = 400;
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->300
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+WriteHeap(v2, 5+readHeap(v2))
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((Lock(x) Print(readHeap(v1)))  ((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) ) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(Lock(x) Print(readHeap(v1))) 
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(Lock(x) Print(readHeap(v1))) 
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Lock(q)
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Lock(x)
+Print(readHeap(v1))
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Lock(x)
+Print(readHeap(v1))
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+(WriteHeap(v2, readHeap(v2)+1) Unlock(q)) 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(readHeap(v1))
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+WriteHeap(v2, readHeap(v2)+1)
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(readHeap(v1))
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+WriteHeap(v2, readHeap(v2)+1)
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((Unlock(x) (Lock(q) Print(readHeap(v2))) )  Unlock(q)) 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(Unlock(x) (Lock(q) Print(readHeap(v2))) ) 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(Unlock(x) (Lock(q) Print(readHeap(v2))) ) 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Unlock(x)
+(Lock(q) Print(readHeap(v2))) 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Unlock(x)
+(Lock(q) Print(readHeap(v2))) 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(Lock(q) Print(readHeap(v2))) 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(Lock(q) Print(readHeap(v2))) 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Lock(q)
+Print(readHeap(v2))
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Lock(q)
+Print(readHeap(v2))
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(readHeap(v2))
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(readHeap(v2))
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Unlock(q)
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+q->6
+x->4
+z->400
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 5
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 8
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+m->100
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 9
+Exe stack: 
+Sym table: 
+q->6
+x->4
+v1->2
+v2->3
+Out: 
+20
+36
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(v = 20; (for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 20;
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 20;
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )}
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )}
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(v = 0; while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )) 
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(v = 0; while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )) 
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 0;
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 0;
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(v = 20; (for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 20;
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 20;
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )} Print(10*v)) 
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )}
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+for(0;v<3;1+v){ForkStmt((Print(v) v = 1+v;) )}
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(v = 0; while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )) 
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(v = 0; while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )) 
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 0;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 0;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->20
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->0
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->1
+Out: 
+0
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(ForkStmt((Print(v) v = 1+v;) ) v = 1+v;) 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((Print(v) v = 1+v;) )
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 4
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+v = 1+v;
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 4
+Exe stack: 
+(Print(v) v = 1+v;) 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->3
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 4
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+while v<3 ( (ForkStmt((Print(v) v = 1+v;) ) v = 1+v;)  )
+Print(10*v)
+Sym table: 
+v->3
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 4
+Exe stack: 
+Print(v)
+v = 1+v;
+Sym table: 
+v->2
+Out: 
+0
+1
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(10*v)
+Sym table: 
+v->3
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 4
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->2
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Print(10*v)
+Sym table: 
+v->3
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 4
+Exe stack: 
+v = 1+v;
+Sym table: 
+v->2
+Out: 
+0
+1
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+Sym table: 
+v->3
+Out: 
+0
+1
+2
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->1
+Out: 
+0
+1
+2
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+0
+1
+2
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 4
+Exe stack: 
+Sym table: 
+v->3
+Out: 
+0
+1
+2
+30
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(((((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) ))  (ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) )  (await(cnt) Print(2000)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) ))  (ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) ) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) ))  (ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) ) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )) 
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) )  ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )) 
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) ) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+((new(v1,2); new(v2,3);)  (new(v3,4); newBarrier(cnt, readHeap(v3))) ) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v1,2); new(v2,3);) 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v1,2); new(v2,3);) 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v1,2);
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v1,2);
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v2,3);
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+(new(v3,4); newBarrier(cnt, readHeap(v3))) 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v3,4);
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+new(v3,4);
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+newBarrier(cnt, readHeap(v3))
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 1
+Exe stack: 
+ForkStmt((WriteHeap(v1, readHeap(v1)*10) (Print(readHeap(v1)) await(cnt)) ) )
+(ForkStmt(((await(cnt) WriteHeap(v2, readHeap(v2)*10))  Print(readHeap(v2))) ) ForkStmt(((await(cnt) WriteHeap(v3, readHeap(v3)*10))  (WriteHeap(v3, readHeap(v3)*10) Print(readHeap(v3))) ) )) 
+(await(cnt) Print(2000)) 
+Sym table: 
+cnt->5
+v1->2
+v2->3
+v3->4
+Out: 
+File table: 
+-----------------------------------------------------

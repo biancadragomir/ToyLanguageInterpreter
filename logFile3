@@ -1,0 +1,441 @@
+PrgState ID 3
+Exe stack: 
+ForkStmt(((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) )
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(nr1 = 2; Print(nr1)) 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(nr1 = 2; Print(nr1)) 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+nr1 = 2;
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+nr1 = 2;
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+nr2 = 10;
+Print(nr2)
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+nr2 = 10;
+Print(nr2)
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Print(nr2)
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Print(nr2)
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 6
+Exe stack: 
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+ForkStmt(((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) )
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr1 = 2; Print(nr1)) 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr1 = 2; Print(nr1)) 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr1 = 2;
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr1 = 2;
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr2 = 10;
+Print(nr2)
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr2 = 10;
+Print(nr2)
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr2)
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr2)
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+10
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+ForkStmt(((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) )
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 3
+Exe stack: 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+((nr1 = 2; Print(nr1))  (nr2 = 10; Print(nr2)) ) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr1 = 2; Print(nr1)) 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr1 = 2; Print(nr1)) 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr1 = 2;
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr1 = 2;
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr1)
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+(nr2 = 10; Print(nr2)) 
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr2 = 10;
+Print(nr2)
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+nr2 = 10;
+Print(nr2)
+Sym table: 
+nr1->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr2)
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Print(nr2)
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 7
+Exe stack: 
+Sym table: 
+nr1->2
+nr2->10
+Out: 
+2
+10
+File table: 
+-----------------------------------------------------

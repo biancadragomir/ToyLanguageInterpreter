@@ -1,0 +1,141 @@
+PrgState ID 2
+Exe stack: 
+(v = 2; Print(v)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 2;
+Print(v)
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 2;
+Print(v)
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+Sym table: 
+v->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+Sym table: 
+v->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+(v = 2; Print(v)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 2;
+Print(v)
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 2;
+Print(v)
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+Sym table: 
+v->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+Sym table: 
+v->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+(v = 2; Print(v)) 
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 2;
+Print(v)
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+v = 2;
+Print(v)
+Sym table: 
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+Sym table: 
+v->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Print(v)
+Sym table: 
+v->2
+Out: 
+File table: 
+-----------------------------------------------------
+PrgState ID 2
+Exe stack: 
+Sym table: 
+v->2
+Out: 
+2
+File table: 
+-----------------------------------------------------
